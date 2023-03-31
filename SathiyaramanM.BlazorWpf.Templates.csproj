@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/Sathiyaraman-M/BlazorWpfTemplates</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <ProjectUrl>https://github.com/Sathiyaraman-M/BlazorWpfTemplates</ProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     
     <TargetFramework>net7.0</TargetFramework>
 
@@ -21,6 +22,10 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <NoDefaultExcludes>true</NoDefaultExcludes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
