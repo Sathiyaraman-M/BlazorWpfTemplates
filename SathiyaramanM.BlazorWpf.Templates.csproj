@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>1.1</PackageVersion>
     <PackageId>SathiyaramanM.BlazorWpf.Templates</PackageId>
     <Title>Preconfigured Blazor Hybrid App Templates for WPF</Title>
     <Authors>SathiyaramanM</Authors>
