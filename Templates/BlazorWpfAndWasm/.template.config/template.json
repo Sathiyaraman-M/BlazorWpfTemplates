@@ -2,9 +2,9 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Sathiyaraman M",
     "classifications": [ "Blazor", "Wpf", "Wasm", "Web", "Hybrid", "Razor"],
-    "identity": "Quark.Templates.BlazorWpf",
-    "name": "Blazor Hybrid Application using WPF in single project",
-    "shortName": "blazorwpf",
+    "identity": "Quark.Templates.BlazorWpfAndWasm",
+    "name": "Blazor Hybrid Application using WPF and Wasm App with Shared RCL project",
+    "shortName": "blazorwpfwasm",
     "tags": {
       "language": "C#",
       "type": "project"
